@@ -74,3 +74,41 @@ elif year % 400 == 0:
     print('Year is leap')
 else:
     print('Year is not leap')
+
+#Lesson third
+my_string = """
+Hi
+I
+am Nomex
+"""
+print(my_string)
+
+name = 'Alex'
+length = len(name)
+print(length)
+
+my_str = 'Hello'
+print("Hell0" in my_str)
+print(my_str.upper())
+print(my_str.upper().lower())
+print(my_str.replace('Hello', 'Hell0'))
+print(my_str.count('l'))
+
+integer = '10q'
+if integer.isdigit():
+    integer = int(integer)
+print(integer.isdigit())
+print('10'.isdigit())
+
+age = 17
+print(f"Hi my name is {name} and I'm {age} years old")
+
+#message = input('Enter the number: ')
+message = '1o'
+if message.isdigit():
+    message = int(message)
+    print(f'{message} is a number')
+    print(type(message))
+else:
+    print(f'{message} is not a number')
+    print(type(message))
