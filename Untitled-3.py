@@ -47,4 +47,13 @@ def my_func():
     local_var = "I'm local variable"
     print(local_var)
 my_func()
-print(local_var)
+#print(local_var)
+
+counter = 1
+while counter <=5:
+    if(counter == -1):
+        break
+    print(f"Counter is {counter}")
+    counter += 1
+    if(counter == -1):
+        break
