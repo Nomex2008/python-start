@@ -25,3 +25,6 @@ print(numbers_list)
 print(max(numbers_list))
 print(min(numbers_list))
 print(sum(numbers_list))
+
+print(numbers_list[0])
+print(numbers_list[0:2])
